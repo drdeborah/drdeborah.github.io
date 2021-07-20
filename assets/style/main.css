@@ -66,7 +66,7 @@ body { font-family:'Raleway',sans-serif; font-size:16px }
 
 /* mobile styles */
 @media only screen and (max-width:400px) {
-  .hero::before { background-image:url('../image/leaf-trunk-hero-400x225.jpg'); }
+  .hero::before { background-image:url('../image/leaf-trunk-hero-400x274.jpg'); }
   .links > .about, .contact {
     display:none;
   }
