@@ -111,7 +111,7 @@ body {
   background-color:#7cefde;
 }
 #about p { margin-bottom:0.9rem }
-#about > .service { background-color:transparent; margin:0.5rem 0.5rem; }
+#about > .service { background-color:transparent; margin:0.5rem 0.5rem }
 
 /* mobile styles */
 @media only screen and (max-width:333px) {
