@@ -102,13 +102,24 @@ body {
   margin-left:1rem;
 }
 
+#about {
+  display:flex;
+  display:-ms-flexbox;
+  flex-flow:column nowrap;
+  align-items:center;
+  width:100%;
+  background-color:#7cefde;
+}
+#about p { margin-bottom:0.9rem }
+#about > .service { background-color:transparent; margin:0.5rem 0.5rem; }
+
 /* mobile styles */
 @media only screen and (max-width:333px) {
   .menu-links > .about,
   .menu-links > .contact,
   .menu-links > .phone { display:none }
   .hero-text { font-size:1.1rem }
-  #services { font-size:0.8rem }
+  #services,#about { font-size:0.8rem }
 }
 @media only screen and (max-width:400px) {
   .hero::before { background-image:url('../image/hero-droplets-640x360.jpg') }
