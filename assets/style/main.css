@@ -101,6 +101,7 @@ body {
   flex-flow:column nowrap;
   margin-left:1rem;
 }
+.service-body > ul { margin-left:2rem }
 
 #about {
   display:flex;
@@ -112,6 +113,15 @@ body {
 }
 #about p { margin-bottom:0.9rem }
 #about > .service { background-color:transparent; margin:0.5rem 0.5rem }
+
+#contact {
+  display:flex;
+  display:-ms-flexbox;
+  flex-flow:column nowrap;
+  width:100%;
+  min-height:50%;
+  background-color:#f2f1dc /* #efeece #ebeab5*/;
+}
 
 /* mobile styles */
 @media only screen and (max-width:333px) {
