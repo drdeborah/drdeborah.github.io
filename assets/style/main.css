@@ -10,7 +10,7 @@ body {
   font-family:'Raleway',sans-serif;
   font-size:1em;
   letter-spacing:0.01em;
-  line-height:1.2;
+  line-height:1.4;
 }
 
 .hidden { position:absolute; top:-9999px; left:-9999px }
@@ -49,6 +49,7 @@ body {
 .hero-text {
   color:#fff;
   font-size:1.3rem;
+  line-height:1.2;
   text-shadow:#343a40 2px 2px;
   position:relative;
   min-width:100%;
@@ -101,7 +102,8 @@ body {
   flex-flow:column nowrap;
   margin-left:1rem;
 }
-.service-body > ul { margin-left:2rem }
+.service-body > p { margin-bottom:0.8rem }
+.service-body > ul { margin-left:2rem; margin-bottom:0.8rem }
 
 #about {
   display:flex;
@@ -111,7 +113,6 @@ body {
   width:100%;
   background-color:#7cefde;
 }
-#about p { margin-bottom:0.9rem }
 #about > .service { background-color:transparent; margin:0.5rem 0.5rem }
 
 #contact {
