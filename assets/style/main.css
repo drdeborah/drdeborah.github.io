@@ -125,6 +125,17 @@ body {
 }
 #contact > .mobj { background-color:transparent; margin:0.5rem 0.5rem }
 
+footer {
+  display:flex;
+  display:-ms-flexbox;
+  flex-flow:column nowrap;
+  align-items:center;
+  justify-content:flex-end;
+  width:100%;
+  min-height:30%;
+  background-color:#f4f2f0;
+}
+
 /* mobile styles */
 @media only screen and (max-width:333px) {
   .menu-links > .about,
