@@ -82,7 +82,6 @@ body {
 
 .mobj {
   position:relative;
-  display:flex;
   width:100%;
   padding:1rem;
   color:#000;
@@ -132,7 +131,7 @@ footer {
   align-items:center;
   justify-content:flex-end;
   width:100%;
-  min-height:30%;
+  min-height:20%;
   background-color:#f4f2f0;
 }
 
