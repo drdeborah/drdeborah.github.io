@@ -89,10 +89,10 @@ body {
   background-color:#f4f2f0;
   display:flex;
   display:-ms-flexbox;
-  justify-content:center;
-  -ms-flex-pack:center;
-  align-content:flex-start;
-  -ms-flex-line-pack:start;
+  /*justify-content:center;*/
+  /*-ms-flex-pack:center;*/
+  /*align-content:flex-start;*/
+  /*-ms-flex-line-pack:start;*/
   margin-bottom:0.5rem;
 }
 .mobj-figure { width:50px; height:75px; margin-right:1rem }
@@ -141,12 +141,16 @@ footer {
   .menu-links > .contact,
   .menu-links > .phone { display:none }
   .hero-text { font-size:1.1rem }
+  .mobj { flex-flow:column nowrap; align-items:center }
+  .mobj-figure { width:90%; height:90%; margin:0 }
   #services,#about { font-size:0.8rem }
 }
 @media only screen and (max-width:400px) {
+  .menu-links > .phone { display:none }
   .hero::before { background-image:url('../image/hero-droplets-640x360.jpg') }
   .hero-text::before { min-height:12rem }
-  .menu-links > .phone { display:none }
+  .mobj { flex-flow:column nowrap; align-items:center }
+  .mobj-figure { width:90%; height:90%; margin:0 }
 }
 
 /* tablet styles */
