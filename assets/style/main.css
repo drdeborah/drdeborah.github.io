@@ -80,7 +80,7 @@ body {
   padding:1rem;
   color:#000;
   /* darker -> #eae6e3, darkest -> #e1dcd7 */
-  background-color:#f4f2f0;
+  /*background-color:#f4f2f0;*/
   display:flex;
   flex-flow:column nowrap;
   align-items:center;
