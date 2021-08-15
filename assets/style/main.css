@@ -47,7 +47,7 @@ body {
   background-color:#343a40;
 }
 .hero-text {
-  color:#fff;
+  color:#f0e2d7;
   font-size:1.3rem;
   line-height:1.2;
   text-shadow:#343a40 2px 2px;
@@ -70,6 +70,7 @@ body {
   display:flex;
   flex-flow:column nowrap;
   align-items:center;
+  background-color:#f0e2d7;
 }
 
 .mobj {
@@ -95,7 +96,7 @@ body {
   flex-flow:column nowrap;
   align-items:center;
   width:100%;
-  /*background-color:#7cefde;*/
+  background:linear-gradient(#f0e2d7, 10%, #c3c4c3);
 }
 
 #contact {
@@ -104,7 +105,7 @@ body {
   align-items:center;
   width:100%;
   min-height:50%;
-  /*background-color:#f2f1dc #edcccd    #f2f1dc #efeece #ebeab5*/;
+  background:linear-gradient(#c3c4c3, 10%, #d3d8c2);
 }
 #contact > .mobj,
 #about > .mobj { background-color:transparent; margin:0.5rem 0.5rem }
@@ -157,8 +158,8 @@ footer {
   .mobj-body { font-size:1.1rem }
   .mobj > .mobj-figure { transform:translate(-2.4rem) }
   .mobj.flipped > .mobj-figure { transform:translate(2.4rem) }
-  #services { width:960px; margin:0 auto }
-  #contact { width:80%; margin:0 auto }
+  #services { width:100%; padding:0 10% }
+  #contact { width:100%; padding:0 10% }
 }
 @media only screen and (min-width:1240px) {
   .hero::before { background-image:url('../image/hero-droplets2-1920x1030.jpg') }
@@ -166,7 +167,7 @@ footer {
 }
 
 .menu-container {
-  color:#fff;
+  color:#f0e2d7;
   background-color:#478683 /*#299302*/;
   padding:20px 0;
   border-bottom: 2px solid #444 /*#086002*/;
@@ -179,9 +180,9 @@ footer {
   display:flex;
   justify-content:space-between;
 }
-.menu a { color:#fff; text-decoration:none }
-.menu a:link { color:#fff }
-.menu a:visited { color:#fff }
+.menu a { color:#f0e2d7; text-decoration:none }
+.menu a:link { color:#f0e2d7 }
+.menu a:visited { color:#f0e2d7 }
 .menu a:hover { text-decoration:underline }
 
 .menu-title { font-size:1.5rem; font-weight:bold; margin-left:0.4rem }
