@@ -86,7 +86,7 @@ body {
   align-items:center;
   margin-bottom:0.5rem;
 }
-.mobj-figure { width:90%; height:90% }
+.mobj-figure { width:90%; height:90%; border-radius:0.4rem }
 .mobj-body { display:flex; flex-flow:column nowrap }
 .mobj-body > p { margin-bottom:0.8rem }
 .mobj-body ul { margin-left:2rem; margin-bottom:0.8rem }
