@@ -129,7 +129,7 @@ footer {
 }
 @media only screen and (max-width:400px) {
   .menu-links > .phone { display:none }
-  .hero::before { background-image:url('../image/hero-droplets-640x360.jpg') }
+  .hero::before { background-image:url('../image/hero-droplets2-640x360.jpg') }
   .hero-text::before { min-height:12rem }
 }
 
@@ -143,14 +143,14 @@ footer {
   .mobj.flipped { flex-direction:row-reverse }
 }
 @media only screen and (min-width:401px) and (max-width:960px) {
-  .hero::before { background-image:url('../image/hero-droplets-960x540.jpg') }
+  .hero::before { background-image:url('../image/hero-droplets2-960x515.jpg') }
   .hero-text::before { min-height:9rem }
   .hero-text { font-size:1.4rem }
 }
 
 /* desktop styles */
 @media only screen and (min-width:961px) {
-  .hero::before { background-image:url('../image/hero-droplets-1280x720.jpg') }
+  .hero::before { background-image:url('../image/hero-droplets2-1280x687.jpg') }
   .hero-text::before { min-height:9rem }
   .hero-text { font-size:1.6rem }
   .mobj-figure { width:150px; height:225px }
@@ -161,7 +161,7 @@ footer {
   #contact { width:80%; margin:0 auto }
 }
 @media only screen and (min-width:1240px) {
-  .hero::before { background-image:url('../image/hero-droplets-1920x1205.jpg') }
+  .hero::before { background-image:url('../image/hero-droplets2-1920x1030.jpg') }
   .mobj-figure { width:240px; height:360px }
 }
 
