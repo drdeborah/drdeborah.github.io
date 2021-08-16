@@ -70,11 +70,10 @@ body {
   display:flex;
   flex-flow:column nowrap;
   align-items:center;
-  background-color:#f0e2d7;
+  background-color:#fff;
 }
 
 .mobj {
-  /*position:relative;*/
   width:100%;
   padding:1rem;
   color:#000;
@@ -96,7 +95,7 @@ body {
   flex-flow:column nowrap;
   align-items:center;
   width:100%;
-  background:linear-gradient(#f0e2d7, 10%, #c3c4c3);
+  background:linear-gradient(#fff, 15%, #c3c4c3);
 }
 
 #contact {
@@ -105,7 +104,7 @@ body {
   align-items:center;
   width:100%;
   min-height:50%;
-  background:linear-gradient(#c3c4c3, 10%, #d3d8c2);
+  background:linear-gradient(#c3c4c3, 15%, #d3d8c2);
 }
 #contact > .mobj,
 #about > .mobj { background-color:transparent; margin:0.5rem 0.5rem }
