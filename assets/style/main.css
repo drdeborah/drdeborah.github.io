@@ -141,7 +141,7 @@ footer {
 @media only screen and (min-width:529px) {
   .mobj { flex-flow:row nowrap; align-items:flex-start; width:80%; border-radius:0.25rem }
   .mobj-figure { width:120px; height:180px }
-  .mobj.flipped { flex-direction:row-reverse }
+  #services > div.mobj:nth-of-type(even) { flex-direction:row-reverse }
 }
 @media only screen and (min-width:401px) and (max-width:960px) {
   .hero::before { background-image:url('../image/hero-droplets2-960x515.jpg') }
@@ -157,7 +157,7 @@ footer {
   .mobj-figure { width:150px; height:225px }
   .mobj-body { font-size:1.1rem }
   .mobj > .mobj-figure { transform:translate(-2.4rem) }
-  .mobj.flipped > .mobj-figure { transform:translate(2.4rem) }
+  #services > div.mobj:nth-of-type(even) > .mobj-figure { transform:translate(2.4rem) }
   #services { width:100%; padding:0 10% }
   #contact { width:100%; padding:0 10% }
 }
