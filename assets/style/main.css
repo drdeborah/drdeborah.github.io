@@ -6,7 +6,6 @@ section,article,aside,footer,header,nav { display:block }
 html,body { width:100%; height:100% }
 body {
   font-family:'Raleway',sans-serif;
-  font-size:1rem;
   letter-spacing:0.01rem;
   line-height:1.4;
 }
@@ -166,22 +165,24 @@ footer {
 }
 
 .menu-container {
-  color:#f0e2d7;
-  background-color:#478683 /*#299302*/;
+  color:#99662f /*#f0e2d7*/;
+  background-color:#eee6de /*#478683 #299302*/;
   padding:20px 0;
-  border-bottom: 2px solid #444 /*#086002*/;
+  /*border-bottom: 2px solid #444 #086002; */
   display:flex;
   justify-content:center;
+  min-height:6rem;
 }
 
 .menu {
   width:100%;
   display:flex;
   justify-content:space-between;
+  align-items:center;
 }
-.menu a { color:#f0e2d7; text-decoration:none }
-.menu a:link { color:#f0e2d7 }
-.menu a:visited { color:#f0e2d7 }
+.menu a { color:#99662f /*#f0e2d7*/; text-decoration:none }
+.menu a:link { color:#99662f /*#f0e2d7*/ }
+.menu a:visited { color:#99662f /*#f0e2d7*/ }
 .menu a:hover { text-decoration:underline }
 
 .menu-title { font-size:1.5rem; font-weight:bold; margin-left:0.4rem }
